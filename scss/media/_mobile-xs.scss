@@ -1,0 +1,262 @@
+
+@media (max-width: 599px){
+    .container{
+        width: 100%;
+    }
+
+    .logo{
+        font-size: 30px;
+    }
+
+
+    .header-title{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .header-content p{
+        font-size: 18px;
+    }
+
+    .header-nav-btn{
+        margin-right: 0;
+    }
+    .main{
+        padding: 40px 0;
+    }
+
+    .main-header{
+        font-size: 34px;
+    }
+
+    .main-row{
+        flex-direction: column-reverse;
+    }
+
+    .main-row:nth-child(even){
+        flex-direction: column-reverse;
+    }
+
+    .main-img{
+        width: 100%;
+        margin-bottom: 20px;    
+        height: 150px;
+    }
+    .main-row:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer-row{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .footer-widgets-wrapper{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 41px;
+        margin-bottom: 40px;
+        
+
+        
+    }
+
+    .footer-copyright{
+        margin: 0 auto;
+       width: 290px;
+        p{
+            width: 100%;
+            
+        }
+    }
+
+    .footer-widgets-wrapper > *{
+        width: 100%;
+    }
+
+    .footer-widget-services{
+        display: block;
+    }
+
+    .footer-widget-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-widget-list{
+        font-size: 16px;
+        row-gap: 11px;
+    }
+
+    .footer-widget-contacts .footer-widget-list{
+        gap: 15px;
+    }
+
+    .footer-logo{
+        margin-bottom: 10px;
+        
+    }
+
+
+    .inner-page {
+        padding-bottom: 40px;
+    }
+
+    .article-page-nav-title {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .article-page-nav-list {
+        font-size: 16px;
+        padding: 0;
+        width: 230px;
+
+        a{
+            padding: 8px 0 ;
+        }
+    }
+   
+    .article-page-article {
+        width: 100%;
+        h1{
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        h2,h3{
+            line-height: 1;
+            
+        }
+
+       h2{
+        margin-bottom: 17px;
+       }
+
+
+   
+
+
+
+
+    }
+
+
+    .main-header-contacts {
+        font-size: 28px;
+        line-height: 1;
+    }
+    .contact-row {
+        row-gap: 30px;
+    }
+
+    .contact-block:not(:last-of-type) {
+        margin-bottom: 30px;
+    }
+    .contact-block-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact-block-list {
+        gap: 20px;
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .contact-list-icon{
+        padding-left: 34px;
+    }
+    .contact-list-icon::before {
+        top: 0;
+    }
+
+    .contact-block-body-map {
+        height: 157px;
+    }
+    .form {
+        padding: 20px 15px 30px;
+    }
+    .form-title {
+        font-size: 24px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .form-group:last-of-type {
+        margin-bottom: 20px;
+    }
+    .form-group-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .form-group-row {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .input{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .input:not(:nth-child(2)){
+       margin-bottom: 10px;
+    }
+
+
+    .radio-row {
+        margin-bottom: 10px;
+    }
+
+    .checkbox-row {
+        margin-bottom: 20px;
+    }
+
+    input.button {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    .inner-page-tours {
+        padding-top: 40px;
+    }
+
+
+
+
+
+    .cards-wrapper {
+        row-gap: 20px;
+    }
+    .cards-row {
+        row-gap: 20px;
+
+    }
+    .default-card {
+        width: 290px;
+    }
+
+    .inner-page-tours-header{
+        .main-header{
+            font-size: 28px;
+        }
+        margin-bottom: 30px;
+    }
+
+    .cards-column {
+        row-gap: 20px;
+    }
+    .wide-card {
+        width: 290px;
+    }
+
+    .high-card {
+        width: 290px;
+    }
+
+
+}
