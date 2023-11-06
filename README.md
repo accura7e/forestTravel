@@ -1,5 +1,5 @@
 # [Много-страничный сайт турагенста "ФорестТревел".][1]
-[1]: https://accura7e.github.io/ForestTravel/
+[1]:  https://accura7e.github.io/forestTravel/
 
 
 * Есть адаптив до 320px
